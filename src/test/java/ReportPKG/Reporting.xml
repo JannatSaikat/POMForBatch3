@@ -1,0 +1,12 @@
+
+<suite name = "Amazon automation">
+    <listeners>
+        <listener class-name ="ReportPKG.QEReport"> </listener>
+    </listeners>
+
+    <test name = "regression">
+        <classes>
+            <class name = "Tests.HomePageTests"></class>
+        </classes>
+    </test>
+</suite>
